@@ -1,0 +1,28 @@
+.cover-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    background-image: url('../../../public/cover-2.jpg');
+    background-position: center;
+    color : white;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#title {
+    font-size: 70px;
+}
+
+.team-area{
+    background-color: #0E0A2A;
+    padding: 0 180px;
+}
+
+@media (max-width: 576px) {
+    #title {
+        font-size: 50px;
+    }
+    .team-area{
+        padding: 0;
+    }
+}
